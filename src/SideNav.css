@@ -1,0 +1,50 @@
+.my-custom-button {
+    flex-direction: column;
+    color: #21304f;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width:100%;
+    font-size: .75rem;
+  }
+  
+  .my-custom-button:hover {
+    background: red; /* Change color on hover */
+  }
+  .my-custom-button-icon{
+    height: 30px;
+    width: 30px;
+  }
+  .my-custom-button-text{
+    width: inherit;
+    text-wrap: auto;
+  }
+  
+  .submenu-label{
+    height: 35px;
+    color: #030303;
+    opacity: 0.5;
+    margin: 1% 0%;
+  }
+  .submenu-button {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 15px 0px 15px;
+    width: 100%;
+    text-align: left;
+    height: 40px;
+    /* margin: 3.5% 0.5%; */
+
+}
+
+.submenu-button span {
+    flex: 1;                      
+    text-align: left;             
+}
+
+.submenu-button:hover {
+    background: #0369dd !important;  
+    color:#ffffff !important
+}
