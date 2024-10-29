@@ -9,10 +9,10 @@ import { GrCluster, GrDatabase, GrCompare, GrShield, GrInbox, GrCompliance } fro
 
 const App = () => {
   const contentBoxes = [
-    { title: "Forms Builder", color: "#6e6c9a", fontColor: "#333333", icon: <GrDatabase />,content:"content dafkdsfjk kldjsflk jljds" },
-    { title: "Shift Planner", color: "#d8bcbd", fontColor: "#333333", icon: <GrCluster /> },
-    { title: "Shift Leader Planner", color: "#a37f7e", fontColor: "#333333", icon: <GrCompare /> },
-    { title: "Workflows Manager", color: "#6e6c9a", fontColor: "#333333", icon: <GrCompliance /> },
+    { title: "Forms Builder", color: "#6e6c9a", fontColor: "#333333", icon: <GrDatabase />,content:"Create forms for operators to work with and report issues in real time." },
+    { title: "Shift Planner", color: "#d8bcbd", fontColor: "#333333", icon: <GrCluster /> ,content:"Plan and assign operators for a shift."},
+    { title: "Shift Leader Planner", color: "#a37f7e", fontColor: "#333333", icon: <GrCompare />,content:"Plan the shifts assigning production lines to supervise." },
+    { title: "Workflows Manager", color: "#6e6c9a", fontColor: "#333333", icon: <GrCompliance /> ,content:"Build the workflows that staff will perform during their shift."},
     { title: "Digital Quality", color: "#504a7a", fontColor: "white", icon: <GrInbox /> },
     { title: "Holds", color: "#2c2039", fontColor: "white", icon: <GrShield /> },
 
